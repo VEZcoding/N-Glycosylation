@@ -1,49 +1,58 @@
 # Project Name
-> Here goes your awesome project description!
+This program is for generating N-glycosylation reactions. You can use it as an input to cytoscape, or to generate an excel table to 
+extract useful information for predicting the outcome of kinetic reactions. This is just a starting generator, since this pathway itself is deficient. 
+Reason behind it is, that I don't know how much of this is intelectual property. For example Gene is the same as Enzyme name, because a lot of pharmaceutical
+companies use their own abbreviations for genes and enzmyes. Naming for the Gylcan structures is taken from Oxford nomenclature. And conditions for appending glycosylation blocks 
+on the unglycosylated product are from my own reasearch: doi.org/10.1002/bit.27660 and from Sphan 2015: 10.1016/j.ymben.2015.10.007
 
 ## Table of contents
 * [General info](#general-info)
 * [Screenshots](#screenshots)
-* [Technologies](#technologies)
 * [Setup](#setup)
 * [Features](#features)
 * [Status](#status)
-* [Inspiration](#inspiration)
 * [Contact](#contact)
 
 ## General info
-Add more general information about project. What the purpose of the project is? Motivation?
+Starting input of Unglycosylated product will be F0M0A0G0S0. Where each letter presents a glycosylation(building) block and number that follows presents the amount of
+the blocks on the glycan - F=Fucose, M=Manose, A=GlucNAc, G = Galactose, S = Sialic Acid. For example F0M3A2G1S1 glycan is afucosylated(has no fucose), 3 mannose
+2 GlucNACs and 1 Galactose and 1 Sialic Acid.  
+List of enzymes present: 
+    - ManI
+    - GalT
+    - GnT
+    - SiaT
+For more accurate N-Glycoslyation pathway we would have acknowledge more enzmyes. Like GnTIII, or GnTIV/GnTV, which can be incorporated, 
+but in my opinion it is not necessary for a basic understanding of this pathway.     
+     
+
+Motivation behind this was that I professionaly worked on N-glycosylation and everywhere I worked the reaction pathway was the "confusing" part.
+
+I lot of different rules apply for different strains. This one was general. 
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Compartment Rules](./img/cis_trans_medial.png)
 
-## Technologies
-* Tech 1 - version 1.0
-* Tech 2 - version 2.0
-* Tech 3 - version 3.0
 
 ## Setup
-Describe how to install / setup your local environement / add link to demo version.
+Program was written is Spyder and with Pandas package
 
-## Code Examples
-Show examples of usage:
-`put-your-code-here`
 
 ## Features
-List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
+Program makes a reaction pahtway for N-glycosylation and includes different enzymes mechanism. 
+List of enzymes present: 
+    * ManI
+    * GalT
+    * GnT
+    * SiaT
 
 To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+* We could improve with different enzymes
+* Put different isomers; for example from GnTIV and GnTV...
 
 ## Status
-Project is: _in progress_, _finished_, _no longer continue_ and why?
+Project is: _in progress_
 
-## Inspiration
-Add here credits. Project inspired by..., based on...
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Created by [@VEZ](vivian.erklavec@gmail.com) - feel free to contact me!
