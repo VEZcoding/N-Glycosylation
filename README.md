@@ -58,4 +58,4 @@ Project is: _in progress_
 
 
 ## Contact
-Created by [@VEZ](vivian.erklavec@gmail.com) - feel free to contact me!
+Created by [@VEZ](https://www.linkedin.com/in/vivian-erklavec-zajec/) - feel free to contact me!
