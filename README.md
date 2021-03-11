@@ -22,6 +22,9 @@ List of enzymes present:
 * GalT
 * GnT
 * SiaT
+
+
+
 For more accurate N-Glycoslyation pathway we would have acknowledge more enzmyes. Like GnTIII, or GnTIV/GnTV, which can be incorporated, 
 but in my opinion it is not necessary for a basic understanding of this pathway.     
      
