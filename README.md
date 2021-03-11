@@ -18,10 +18,10 @@ Starting input of Unglycosylated product will be F0M0A0G0S0. Where each letter p
 the blocks on the glycan - F=Fucose, M=Manose, A=GlucNAc, G = Galactose, S = Sialic Acid. For example F0M3A2G1S1 glycan is afucosylated(has no fucose), 3 mannose
 2 GlucNACs and 1 Galactose and 1 Sialic Acid.  
 List of enzymes present: 
-    - ManI
-    - GalT
-    - GnT
-    - SiaT
+* ManI
+* GalT
+* GnT
+* SiaT
 For more accurate N-Glycoslyation pathway we would have acknowledge more enzmyes. Like GnTIII, or GnTIV/GnTV, which can be incorporated, 
 but in my opinion it is not necessary for a basic understanding of this pathway.     
      
@@ -41,10 +41,10 @@ Program was written is Spyder and with Pandas package
 ## Features
 Program makes a reaction pahtway for N-glycosylation and includes different enzymes mechanism. 
 List of enzymes present: 
-    * ManI
-    * GalT
-    * GnT
-    * SiaT
+* ManI
+* GalT
+* GnT
+* SiaT
 
 To-do list:
 * We could improve with different enzymes
