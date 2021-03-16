@@ -43,6 +43,7 @@ List of enzymes present:
 * GalT
 * GnT
 * SiaT
+* Fuct
 
 To-do list:
 * We could improve with different enzymes
